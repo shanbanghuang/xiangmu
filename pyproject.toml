@@ -1,0 +1,16 @@
+[project]
+name = "agent-ctf-lab"
+version = "0.1.0"
+description = "AI Agent 安全攻防实验场 + CTF 自动解题工具箱"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.scripts]
+inject-fuzz = "toolkits.inject_fuzzer:main"
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

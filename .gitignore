@@ -1,0 +1,28 @@
+# 密钥 —— 永远不要提交 .env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.eggs/
+*.egg-info/
+
+# 靶场运行期产物
+labs/**/logs/
+*.log
+traces/
+runs/
+
+# 本地 flag（如果靶场从远端取）
+labs/**/flag.local.txt
+
+# 解题缓存 / 模型输出
+.cache/
+.outputs/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,11 @@
+# 最小依赖：跑通 lab01-lab02 只需要这些
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.6
+httpx>=0.27
+python-dotenv>=1.0
+rich>=13.7
+
+# 阶段三 solver 才需要，先注释掉，避免新手装一堆用不上的东西
+# pwntools>=4.11
+# docker>=7.0
